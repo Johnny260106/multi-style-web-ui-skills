@@ -3,7 +3,7 @@ name: Bootstrap repository
 on:
   push:
     paths:
-      - multi-style-web-ui-skills.zip
+      - release-payload.b64
 
 permissions:
   contents: write
@@ -15,9 +15,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify and unpack release bundle
         run: |
+          base64 --decode release-payload.b64 > multi-style-web-ui-skills.zip
           echo "1e82c15f711c647de9387096960dbb2f1642e0602e60d3327332dd7252e8d9ae  multi-style-web-ui-skills.zip" | sha256sum -c -
           unzip -q -o multi-style-web-ui-skills.zip
-          rm multi-style-web-ui-skills.zip .github/workflows/bootstrap.yml
+          rm release-payload.b64 multi-style-web-ui-skills.zip .github/workflows/bootstrap.yml
       - name: Commit repository contents
         run: |
           git config user.name "github-actions[bot]"
