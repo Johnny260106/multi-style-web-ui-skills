@@ -19,7 +19,7 @@ jobs:
         run: |
           echo "1e82c15f711c647de9387096960dbb2f1642e0602e60d3327332dd7252e8d9ae  multi-style-web-ui-skills.zip" | sha256sum -c -
           unzip -q -o multi-style-web-ui-skills.zip
-          rm multi-style-web-ui-skills.zip .github/workflows/bootstrap.yml
+          rm multi-style-web-ui-skills.zip .github/workflows/validate.yml
       - name: Commit repository contents
         run: |
           git config user.name "github-actions[bot]"
