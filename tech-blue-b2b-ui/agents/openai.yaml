@@ -1,0 +1,7 @@
+interface:
+  display_name: "Tech Blue B2B UI"
+  short_description: "Build precise technology-blue enterprise Web UI"
+  brand_color: "#2563EB"
+  default_prompt: "Use $tech-blue-b2b-ui to design and implement this enterprise Web interface, then render and verify it."
+policy:
+  allow_implicit_invocation: true

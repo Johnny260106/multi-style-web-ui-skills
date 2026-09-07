@@ -1,0 +1,7 @@
+interface:
+  display_name: "Health Management Web UI"
+  short_description: "Build supportive Chinese health-management Web UI"
+  brand_color: "#0F766E"
+  default_prompt: "Use $health-management-web-ui to design and implement this Chinese health-management Web interface."
+policy:
+  allow_implicit_invocation: true

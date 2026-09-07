@@ -1,0 +1,7 @@
+interface:
+  display_name: "Patient Medical Web UI"
+  short_description: "Build trustworthy Chinese patient-service Web UI"
+  brand_color: "#0F6CBD"
+  default_prompt: "Use $patient-medical-web-ui to design and implement this Chinese patient-service Web interface safely."
+policy:
+  allow_implicit_invocation: true

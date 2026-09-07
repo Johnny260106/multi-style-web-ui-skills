@@ -1,0 +1,7 @@
+interface:
+  display_name: "Industrial Orange B2B UI"
+  short_description: "Build clear industrial and equipment operations UI"
+  brand_color: "#C2410C"
+  default_prompt: "Use $industrial-orange-b2b-ui to design and implement this industrial operations Web interface."
+policy:
+  allow_implicit_invocation: true

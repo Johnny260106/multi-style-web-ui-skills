@@ -1,0 +1,7 @@
+interface:
+  display_name: "Green Operations B2B UI"
+  short_description: "Build energy and sustainability operations UI"
+  brand_color: "#047857"
+  default_prompt: "Use $green-operations-b2b-ui to design and implement this green operations Web interface."
+policy:
+  allow_implicit_invocation: true

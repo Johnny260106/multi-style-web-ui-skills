@@ -1,0 +1,7 @@
+interface:
+  display_name: "Web UI Design Router"
+  short_description: "Route Web UI work to the right visual system"
+  brand_color: "#2563EB"
+  default_prompt: "Use $web-ui-design-router to choose the correct UI style skill for this Web product, then implement and verify it."
+policy:
+  allow_implicit_invocation: true
